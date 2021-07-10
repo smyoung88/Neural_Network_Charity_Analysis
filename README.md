@@ -10,7 +10,7 @@ The purpose of this analysis was to create a machine learning binary classifer t
 <b>What variable(s) are considered the target for your model?</b></br>
 The target for this model was the "Is-Successful" column which indicates whether or not the investment money was used successfully.
 
-<b>What variable(s) are considered to be the features for your model?<b></br>
+<b>What variable(s) are considered to be the features for your model?</b></br>
 The features in this model were the NAME, APPLICATION, TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT,SPECIAL_CONSIDERATIONS, STATUS, and ASK_AMT
 
 <b>What variable(s) are neither targets nor features and should be removed from the input data?<b></br>
