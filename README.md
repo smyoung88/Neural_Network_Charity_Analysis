@@ -5,7 +5,7 @@ The purpose of this analysis was to create a machine learning binary classifer t
 
 ## Results
 
-<b>Data Preprocessing</b>
+### Data Preprocessing 
 
 <b>What variable(s) are considered the target for your model?</b></br>
 The target for this model was the "Is-Successful" column which indicates whether or not the investment money was used successfully.
