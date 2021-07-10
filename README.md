@@ -16,7 +16,7 @@ The features in this model were the NAME, APPLICATION, TYPE, AFFILIATION, CLASSI
 <b>What variable(s) are neither targets nor features and should be removed from the input data?</b></br>
 EIN (Employer identificaiton) was dropped to avoid confusing the model. NAME could have also possibly been dropped, as it was in the original model before optimization, but a if new data is entered into the model that carries the same names within the model, it plays a significant role in accuracy.
 
-<b>Compiling, Training, and Evaluating the Model</b>
+### Compiling, Training, and Evaluating the Model
   
 <b>How many neurons, layers, and and activation functions did you select for your neural network model, and why?</b></br> 
 In this model, there were three hidden layers with 100, 40, and 10 nodes. Epochs remained the same as the original model, and the activations were 'relu', 'relu', and 'sigmoid' with the output function as 'sigmoid' as well.
