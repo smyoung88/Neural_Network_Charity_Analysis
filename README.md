@@ -21,8 +21,8 @@ EIN (Employer identification) was dropped to avoid confusing the model. NAME cou
 <b>How many neurons, layers, and activation functions did you select for your neural network model, and why?</b></br> 
 In this model, there were three hidden layers with 100, 40, and 10 nodes. Epochs remained the same as the original model, and the activations were 'relu', 'relu', and 'sigmoid', and the output function was 'sigmoid'.
 
-A preview of the code for the model is below:
-<img height="35%" width="35%" src="https://github.com/smyoung88/Neural_Network_Charity_Analysis/blob/main/Resources/model_optimized.png">
+A preview of the code for the model is below:</br>
+<img src="https://github.com/smyoung88/Neural_Network_Charity_Analysis/blob/main/Resources/model_optimized.png">
 
 <b>Were you able to achieve the target model performance?</b></br>
 Yes
@@ -33,7 +33,7 @@ Many different attempts were made to increase the model's performance with very 
 ## Summary
 Overall, increasing the accuracy of the model proved very difficult. All attempts other than adding the NAME column back to the dataset failed at improving the accuracy over 75%. Although adding NAMES back to the dataset, it only increased the model three to four percent to 77.91% and still can be considered useful for applicants that are not already included in the model.
 
-The code output accuracies for both the original and optimized models are shown below:
+The code output accuracies for both the original and optimized models are shown below:</br>
 <img height="35%" width="35%" src="https://github.com/smyoung88/Neural_Network_Charity_Analysis/blob/main/Resources/norm_acc.png">
 <img height="35%" width="35%" src="https://github.com/smyoung88/Neural_Network_Charity_Analysis/blob/main/Resources/opt_acc.png">
 
