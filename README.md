@@ -34,7 +34,9 @@ Many different attempts were made to increase the model's performance with very 
 Overall, increasing the accuracy of the model proved very difficult. All attempts other than adding the NAME column back to the dataset failed at improving the accuracy over 75%. Although adding NAMES back to the dataset, it only increased the model three to four percent to 77.91% and still can be considered useful for applicants that are not already included in the model.
 
 The code output accuracies for both the original and optimized models are shown below:</br>
-<img height="35%" width="35%" src="https://github.com/smyoung88/Neural_Network_Charity_Analysis/blob/main/Resources/norm_acc.png">
+**Original**</br>
+<img height="35%" width="35%" src="https://github.com/smyoung88/Neural_Network_Charity_Analysis/blob/main/Resources/norm_acc.png"></br>
+**Optimized**</br>
 <img height="35%" width="35%" src="https://github.com/smyoung88/Neural_Network_Charity_Analysis/blob/main/Resources/opt_acc.png">
 
 
